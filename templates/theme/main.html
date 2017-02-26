@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Flask ...</title>
+        <meta name="description" content="...">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut-icon" href="{{ uri_for('static', filename='favicon.png') }}">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="{{ uri_for('static', filename='css/app.css') }}">
+    </head>
+    <body>
+      {% block content%}{% end block %}
+      <!-- Scripts -->
+      <script src="{{ uri_for('static', filename='js/app.js') }}"></script>
+    </body>
+</html>
