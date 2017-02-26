@@ -7,14 +7,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico in the root directory -->
-        <link rel="shortcut-icon" href="{{ uri_for('static', filename='favicon.png') }}">
+        <link rel="shortcut-icon" href="{{ url_for('static', filename='favicon.png') }}">
 
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="{{ uri_for('static', filename='css/app.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
     </head>
     <body>
-      {% block content%}{% end block %}
+      {% block content %}{% endblock %}
       <!-- Scripts -->
-      <script src="{{ uri_for('static', filename='js/app.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/app.js') }}"></script>
     </body>
 </html>
