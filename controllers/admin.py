@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, url_for, request
+from flask import Blueprint, render_template, url_for, request, session
 
 admin_controller = Blueprint("admin_controller", __name__, template_folder="templates")
 
