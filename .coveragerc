@@ -1,0 +1,3 @@
+[run]
+source = elipsis
+omit = elipsis/test*

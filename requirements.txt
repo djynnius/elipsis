@@ -1,0 +1,6 @@
+waitress
+gevent
+sqlalchemy
+requests
+pyramid
+jinja2
