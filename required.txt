@@ -8,3 +8,7 @@ flask
 flask-socketio
 flask-cors
 requests
+mysqlclient
+psycopg2
+pymongo
+cx_oracle
