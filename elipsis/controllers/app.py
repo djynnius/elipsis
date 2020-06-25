@@ -11,9 +11,12 @@ class App:
 
     @view_config(route_name='home', renderer='views/app.html')
     def my_view(request):
-
         return {'project': '...'}
 
     def db_Connect():
-        from ..models.app import DBO
-        dbo = DBO().dbo()        
+        from ..models.db import DB
+        #dbo = DB().sqlite()
+        #dbo = DB().maria()
+        #dbo = DB().postgres()
+
+        dbo = DB().sqlite()
