@@ -16,7 +16,7 @@ class App:
     def db_Connect():
         from ..models.db import DB
         #dbo = DB().sqlite()
-        #dbo = DB().maria()
+        #dbo = DB().mysql()
         #dbo = DB().postgres()
 
         dbo = DB().sqlite()
